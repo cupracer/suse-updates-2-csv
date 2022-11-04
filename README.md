@@ -7,7 +7,7 @@ cd suse-updates-2-csv
 
 chmod 700 main.py
 python3 -m venv ./venv
-. /venv/bin/activate
+. venv/bin/activate
 pip install -r requirements.txt
 ```
 
